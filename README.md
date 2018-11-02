@@ -1,4 +1,4 @@
-# jsonwebtoken
+# jsonwebtoken-bigint
 
 | **Build** | **Dependency** |
 |-----------|---------------|
@@ -6,6 +6,7 @@
 
 
 An implementation of [JSON Web Tokens](https://tools.ietf.org/html/rfc7519).
+Json 파싱시에 Bigint 처리 못하는 문제 수정 버젼
 
 This was developed against `draft-ietf-oauth-json-web-token-08`. It makes use of [node-jws](https://github.com/brianloveswords/node-jws)
 
